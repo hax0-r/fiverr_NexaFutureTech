@@ -31,6 +31,23 @@ a {
   animation: slideAnimation 1s ease var(--slidein-delay, 0) forwards;
 }
 
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.float-image {
+  animation: floatAnimation 3s ease-in-out infinite;
+}
+
+
 @keyframes slideAnimation {
   from {
     opacity: 0;

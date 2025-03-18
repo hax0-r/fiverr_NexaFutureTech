@@ -5,18 +5,18 @@ import { MdOutlinePrecisionManufacturing } from 'react-icons/md'
 
 const CardData = [
     {
-        title: 'Shelves Solutions',
-        description: 'We provide automation solutions that are tailored to your business needs, ensuring that your operations are streamlined and efficient.',
+        title: 'Off-the-Shelf Automation',
+        description: 'Integrating ready-made automation solutions to improve efficiency quickly and cost-effectively.',
         icon: <AiOutlineSolution />
     },
     {
         title: 'Manufacturing Automation',
-        description: 'We provide automation solutions that are tailored to your business needs, ensuring that your operations are streamlined and efficient.',
+        description: 'Designing tailored automation systems using robotics, AI, and IoT to optimize workflows.',
         icon: <MdOutlinePrecisionManufacturing />
     },
     {
         title: 'Robot Process Automation',
-        description: 'We provide automation solutions that are tailored to your business needs, ensuring that your operations are streamlined and efficient.',
+        description: 'Automating repetitive business tasks with intelligent software robots to boost productivity.',
         icon: <FaRobot />
     },
 ]
