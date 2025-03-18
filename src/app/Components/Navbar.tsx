@@ -12,8 +12,8 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="bg-primary w-full h-24 flex items-center justify-center">
-                <div className='max-w-7xl w-full mx-auto p-5 flex items-center justify-between'>
+            <div className="bg-primary  w-full h-24 flex items-center justify-center">
+                <div className='max-w-7xl slidein [--slidein-delay:300ms] opacity-0 w-full mx-auto p-5 flex items-center justify-between'>
                     <Link href={"/"} className="flex items-center gap-3 text-white">
                         <Image src={logo} alt="logo" className='w-12' />
                         <h2 className='font-medium text-4xl md:block hidden'>NexaFutureTech</h2>

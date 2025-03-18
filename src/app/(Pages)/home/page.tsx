@@ -11,11 +11,11 @@ const Home = () => {
             <div className='bg-primary min-h-[calc(100vh-6rem)]'>
                 <div className="max-w-7xl p-5 flex md:flex-row flex-col gap-10 items-center justify-between w-full mx-auto min-h-[calc(100vh-8rem)]">
                     <div className="text-white md:max-w-[50%] w-full">
-                        <h1 className="md:text-5xl capitalize text-3xl font-semibold leading-tight">Empowering Innovation through Automation Excellence</h1>
-                        <p className="mt-5 text-blue-200">We aim to revolutionize automation and manufacturing by leading the integration of manual processes with advanced technologies. With dedication and passion, we strive to propel businesses into a new era of efficiency and sustainable growth, fostering innovation in the industry.</p>
-                        <button className='px-12 py-3.5 rounded-full bg-white text-primary cursor-pointer mt-6 font-medium transition-all duration-500 hover:opacity-80'>Get Started</button>
+                        <h1 className="md:text-5xl slidein [--slidein-delay:300ms] opacity-0 capitalize text-3xl font-semibold leading-tight">Empowering Innovation through Automation Excellence</h1>
+                        <p className="mt-5 text-blue-200 slidein [--slidein-delay:500ms] opacity-0">We aim to revolutionize automation and manufacturing by leading the integration of manual processes with advanced technologies. With dedication and passion, we strive to propel businesses into a new era of efficiency and sustainable growth, fostering innovation in the industry.</p>
+                        <button className='px-12 slidein [--slidein-delay:700ms] opacity-0 py-3.5 rounded-full bg-white text-primary cursor-pointer mt-6 font-medium transition-all duration-500 hover:opacity-80'>Get Started</button>
                     </div>
-                    <div className="md:max-w-[38%] w-full flex items-center justify-center">
+                    <div className="md:max-w-[38%] slidein [--slidein-delay:400ms] opacity-0 w-full flex items-center justify-center">
                         <Image src={img} alt='img' />
                     </div>
                 </div>
