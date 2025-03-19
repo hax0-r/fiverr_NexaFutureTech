@@ -22,7 +22,7 @@ const Footer = () => {
                                 query ?
                             </p>
                             <Link
-                                href="/contact-us"
+                                href="/contact"
                                 className="py-2.5 px-5 h-9 block w-fit bg-primary rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-primary/80 lg:mx-0"
                             >
                                 Contact us
@@ -58,7 +58,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <Link
-                                        href="/contact-us"
+                                        href="/contact"
                                         className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         Contact Us
