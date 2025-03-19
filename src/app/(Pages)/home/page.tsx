@@ -1,7 +1,7 @@
 import Wrapper from '@/app/Wrapper'
 import React from 'react'
 import ai2 from '../../../Assets/EmpoweringInnovationthroughAutomationExcellence.jpg'
-import ai3 from '../../../Assets/ai3.jpg'
+import ai3 from '../../../Assets/cobotRobots.avif'
 import ai4 from '../../../Assets/Automation.avif'
 import img1 from '../../../Assets/img1.png'
 import ceo from '../../../Assets/ceo.jpg'
@@ -83,7 +83,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="max-w-7xl w-full flex items-center justify-between md:flex-row flex-col gap-6 mx-auto p-5 md:mt-16 mt-5">
+            <div className="max-w-7xl w-full flex items-center justify-between md:flex-row flex-col gap-6 mx-auto p-5 md:mt-24 mt-5">
                 <div className="md:max-w-[50%] w-full">
                     <h2 className='font-semibold leading-tight md:text-3xl text-2xl'>SOLUTIONISTS</h2>
                     <p className='text-zinc-500 md:text-lg mt-4'>"At NexafuturTech, we collabolate with
