@@ -1,9 +1,9 @@
 import Wrapper from '@/app/Wrapper'
 import React from 'react'
-import ai1 from '../../../Assets/ai5.jpg'
-import ai2 from '../../../Assets/ai6.jpg'
-import ai3 from '../../../Assets/ai7.jpg'
-import ai4 from '../../../Assets/ai8.jpg'
+import ai1 from '../../../Assets/ShelfAutomation.avif'
+import ai2 from '../../../Assets/TailoredManufacturingAutomation.avif'
+import ai3 from '../../../Assets/RoboticProcessAutomation.jpg'
+import ai4 from '../../../Assets/RevivingDormantAutomationSystems.avif'
 import Image from 'next/image'
 
 const OurServices = [

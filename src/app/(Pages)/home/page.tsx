@@ -1,8 +1,8 @@
 import Wrapper from '@/app/Wrapper'
 import React from 'react'
-import ai2 from '../../../Assets/ai2.jpg'
+import ai2 from '../../../Assets/EmpoweringInnovationthroughAutomationExcellence.jpg'
 import ai3 from '../../../Assets/ai3.jpg'
-import ai4 from '../../../Assets/ai4.jpg'
+import ai4 from '../../../Assets/Automation.avif'
 import img1 from '../../../Assets/img1.png'
 import ceo from '../../../Assets/ceo.jpg'
 import Image from 'next/image'
@@ -68,8 +68,8 @@ const Home = () => {
                     <h2 className='font-semibold leading-tight md:text-3xl text-2xl'>Empowering Innovation through Automation Excellence</h2>
                     <p className='text-zinc-500 md:text-lg mt-4'>We aim to revolutionize automation and manufacturing by leading the integration of manual processes with advanced technologies. With dedication and passion, we strive to propel businesses into a new era of efficiency and sustainable growth, fostering innovation in the industry.</p>
                 </div>
-                <div className="md:max-w-[38%] w-full">
-                    <Image src={ai2} className='rounded-lg' alt='img' />
+                <div className="md:max-w-[40%] w-full">
+                    <Image src={ai2} className='rounded-lg md:h-96 object-cover' alt='img' />
                 </div>
             </div>
 
@@ -96,8 +96,8 @@ const Home = () => {
                         growth. Empower your future with
                         NexafuturTech. </p>
                 </div>
-                <div className="md:max-w-[38%] w-full">
-                    <Image src={ai4} className='rounded-lg' alt='img' />
+                <div className="md:max-w-[40%] w-full">
+                    <Image src={ai4} className='rounded-lg md:h-96 object-cover' alt='img' />
                 </div>
             </div>
 
@@ -133,17 +133,17 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="max-w-7xl w-full flex items-center justify-between md:flex-row flex-col gap-6 mx-auto p-5 md:mt-28 mt-10">
-                <div className="md:max-w-[50%] w-full">
+            <div className="max-w-6xl w-full flex items-center justify-between md:flex-row flex-col gap-6 mx-auto p-5 md:mt-28 mt-10">
+                <div className="md:max-w-[60%] w-full">
                     <h2 className='font-semibold leading-tight md:text-3xl text-2xl capitalize'>founder of Nexafuturtech</h2>
-                    <p className='text-zinc-500 md:text-lg mt-4'>Nexafuturtech is driven by a passion for innovation and technology, dedicated to helping companies advance their capabilities with a relentless drive for improvement. We are here to make a global impact, positioning ourselves as the trusted partner for businesses embracing transformation. With a clear vision for progress, we empower companies to optimize operations, enhance efficiency, and lead the way in the evolving landscape of automation.</p>
+                    <p className='text-zinc-500 md:text-lg mt-4'>"Nexafuturtech is driven by a passion for innovation and technology, dedicated to helping companies advance their capabilities with a relentless drive for improvement. We are here to make a global impact, positioning ourselves as the trusted partner for businesses embracing transformation. With a clear vision for progress, we empower companies to optimize operations, enhance efficiency, and lead the way in the evolving landscape of automation."</p>
                 </div>
-                <div className="md:max-w-[38%] w-full">
-                    <Image src={ceo} className='rounded-2xl myShadow w-full' alt='img' />
+                <div className="md:max-w-[30%] w-full">
+                    <Image src={ceo} className='rounded-full myShadow w-full' alt='img' />
                 </div>
             </div>
 
-            <div className="flex items-center justify-center max-w-4xl mx-auto flex-col  md:mt-20 mt-8 text-center p-5">
+            <div className="flex items-center justify-center max-w-4xl mx-auto flex-col  md:mt-28 mt-8 text-center p-5">
                 <h2 className="md:text-4xl text-3xl font-semibold tracking-tight capitalize text-zinc-800 ">Subscribe to our newsletter</h2>
                 <p className="mt-4 text-lg text-gray-500">
                     Subscribe to our newsletter and stay updated with the latest trends, innovations, and insights in automation and smart manufacturing
