@@ -16,11 +16,11 @@ const Navbar = () => {
                 <div className='max-w-7xl slidein [--slidein-delay:300ms] opacity-0 w-full mx-auto p-5 flex items-center justify-between'>
                     <Link href={"/"} className="flex items-center gap-3 text-white">
                         <Image src={logo} alt="logo" className='w-12' />
-                        <h2 className='font-medium text-4xl md:block hidden'>NexaFutureTech</h2>
+                        <h2 className='font-medium text-4xl md:block hidden'>NexaFuturTech</h2>
                     </Link>
                     <ul className='md:flex hidden items-center space-x-10 text-white'>
                         <li><Link href={"/"}>Home</Link></li>
-                        <li><Link href={"#about"}>About Us</Link></li>
+                        <li><Link href={"/#about"}>About Us</Link></li>
                         <li><Link href={"/services"}>Services</Link></li>
                         <li><Link href={"/contact"}>Contact Us</Link></li>
                     </ul>
@@ -35,7 +35,7 @@ const Navbar = () => {
                         <Image src={logo} alt="logo" className='w-12' />
                         <ul className='flex mt-8 flex-col space-y-7'>
                             <li><Link onClick={() => setNavbar(false)} href={"/"}>Home</Link></li>
-                            <li><Link onClick={() => setNavbar(false)} className="text-nowrap" href={"#about"}>About Us</Link></li>
+                            <li><Link onClick={() => setNavbar(false)} className="text-nowrap" href={"/#about"}>About Us</Link></li>
                             <li><Link onClick={() => setNavbar(false)} href={"/services"}>Services</Link></li>
                             <li><Link onClick={() => setNavbar(false)} className="text-nowrap" href={"/contact"}>Contact Us</Link></li>
                         </ul>

@@ -42,7 +42,7 @@ const Footer = () => {
                                 </li>
                                 <li className="mb-6">
                                     <Link
-                                        href="/about-us"
+                                        href="/#about"
                                         className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
                                         About Us
@@ -94,7 +94,7 @@ const Footer = () => {
                     <div className="py-7 border-t border-gray-200">
                         <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
                             <span className="text-sm text-gray-500 ">
-                                ©<Link href="/">NexaFutureTech</Link> 2025, All rights
+                                ©<Link href="/">NexaFuturTech</Link> 2025, All rights
                                 reserved.
                             </span>
                             <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
