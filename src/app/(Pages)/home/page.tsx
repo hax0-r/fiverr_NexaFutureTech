@@ -44,7 +44,7 @@ const Home = () => {
                     <div className="text-white md:max-w-[50%] w-full">
                         <h1 className="md:text-5xl slidein [--slidein-delay:300ms] opacity-0 capitalize text-3xl font-semibold leading-tight">Smart Automation for Smarter Manufacturing</h1>
                         <p className="mt-5 mb-8 text-blue-200 slidein [--slidein-delay:500ms] opacity-0">At Nexafuturtech, we blend transition traditional practices with cutting-edge technology to redefine automation and manufacturing. With passion and precision, we drive your business toward limitless innovation and sustainable growth.</p>
-                        <Link href={"#services"} className='px-12 slidein [--slidein-delay:700ms] opacity-0 py-3.5 rounded-full bg-white text-primary cursor-pointer  font-medium transition-all duration-500 hover:bg-transparent hover:text-white border border-white'>Get Started</Link>
+                        <Link href={"/contact"} className='px-12 slidein [--slidein-delay:700ms] opacity-0 py-3.5 rounded-full bg-white text-primary cursor-pointer  font-medium transition-all duration-500 hover:bg-transparent hover:text-white border border-white'>Get Started</Link>
                     </div>
                     <div className="md:max-w-[50%] slidein [--slidein-delay:400ms] opacity-0 w-full flex items-center justify-center">
                         <Image src={img1} className='float-image' alt='img' />
@@ -52,7 +52,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div id='services' className="max-w-7xl w-full mx-auto p-5 md:mt-16 mt-10">
+            <div className="max-w-7xl w-full mx-auto p-5 md:mt-16 mt-10">
 
                 <h2 className='text-center font-semibold text-4xl'>Our Services</h2>
                 <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 md:mt-12 mt-8 gap-4">
@@ -148,7 +148,8 @@ const Home = () => {
                 <p className="mt-4 text-lg text-gray-500">
                     Subscribe to our newsletter and stay updated with the latest trends, innovations, and insights in automation and smart manufacturing
                 </p>
-                <form className="mt-6 flex max-w-xl w-full gap-x-2">
+                <form action="https://api.web3forms.com/submit" method="POST" className="mt-6 flex max-w-xl w-full gap-x-2">
+                    <input type="hidden" name="access_key" value="1e2a1974-3994-4e26-bf6c-0b687aeef6e4" />
                     <input
                         id="email-address"
                         name="email"

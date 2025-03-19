@@ -94,7 +94,8 @@ const Services = () => {
         <p className="mt-4 text-lg text-gray-500">
           Subscribe to our newsletter and stay updated with the latest trends, innovations, and insights in automation and smart manufacturing
         </p>
-        <form className="mt-6 flex max-w-xl w-full gap-x-2">
+        <form action="https://api.web3forms.com/submit" method="POST" className="mt-6 flex max-w-xl w-full gap-x-2">
+          <input type="hidden" name="access_key" value="1e2a1974-3994-4e26-bf6c-0b687aeef6e4" />
           <input
             id="email-address"
             name="email"
