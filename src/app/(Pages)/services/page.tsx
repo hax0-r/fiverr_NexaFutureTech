@@ -9,13 +9,13 @@ import Image from 'next/image'
 const OurServices = [
   {
     img: ai1,
-    title: "Off-the-Shelf Automation",
-    description: "We specialize in integrating off-the-shelf automation solutions that help businesses enhance efficiency without the need for custom-built systems. Whether it's implementing a commercial robotic arm for pick-and-place tasks or integrating a standardized Manufacturing Execution System (MES), we ensure seamless deployment. Our services include configuration, optimization, software customization, and user training, ensuring a smooth transition with minimal disruption. By leveraging existing solutions, we help manufacturers reduce costs and accelerate automation adoption."
+    title: "for off the shelves solution",
+    description: "We provide expert consultation on integrating off-the-shelf automation solutions to help businesses enhance efficiency without the need for custom-built systems. Whether it's selecting and optimizing a commercial robotic arm for pick-and-place tasks or advising on the best pre-engineered automation tools, we guide manufacturers in making informed decisions. Our services include solution assessment, configuration recommendations, process optimization strategies, and user training to ensure a seamless transition with minimal disruption. By leveraging existing technologies, we help manufacturers reduce costs and accelerate automation adoption."
   },
   {
     img: ai2,
     title: "Tailored Manufacturing Automation",
-    description: "Our expertise lies in designing customized automation systems tailored to the specific needs of manufacturers. We analyze workflows, identify bottlenecks, and develop automation strategies using cutting-edge technologies like robotics, AI, and IoT. From concept to deployment, our end-to-end solutions optimize production lines, enhance efficiency, and maximize return on investment. We ensure seamless integration of smart automation tools, making manufacturing processes more agile and competitive."
+    description: "We provide expert consultation on developing customized automation strategies tailored to the specific needs of manufacturers. By analyzing workflows and identifying inefficiencies, we recommend and optimize automation solutions using advanced technologies . Our guidance ensures that manufacturers implement the right automation tools to enhance efficiency, streamline production, and maximize return on investment. With a focus on seamless adoption, we help businesses make their manufacturing processes more agile and competitive."
   },
   {
     img: ai3,
@@ -51,7 +51,7 @@ const Services = () => {
             OurServices.map((data, index) => (
               <div key={index} className="w-full flex slidein [--slidein-delay:800ms] opacity-0 transition-all duration-500 hover:-translate-y-2 pb-5 flex-col myShadow p-4 rounded-lg">
                 <Image src={data.img} alt={data.title} className="rounded-lg h-80 object-cover" />
-                <h3 className=' mt-7 text-xl font-semibold'>{data.title}</h3>
+                <h3 className=' mt-7 text-xl font-semibold capitalize'>{data.title}</h3>
                 <p className='mt-3  text-zinc-600'>{data.description}</p>
               </div>
             ))
@@ -62,8 +62,8 @@ const Services = () => {
       <div className="bg-primary md:p-10 p-5 md:mt-28 mt-10">
         <div className="max-w-7xl my-5 w-full mx-auto py-5 text-center">
 
-          <h2 className="text-white font-semibold md:text-3xl text-2xl">We Help To Grow Your Business</h2>
-          <p className="max-w-5xl w-full mx-auto text-blue-100 mt-3">Our expertise in automation has empowered businesses to achieve remarkable milestones. From successfully completed projects to a growing online presence, we take pride in our impact. Join the companies that trust us to enhance efficiency, boost engagement, and drive success. </p>
+          <h2 className="text-white font-semibold md:text-3xl text-2xl">Smart Automation Consultancy for Smarter Businesses</h2>
+          <p className="max-w-5xl w-full mx-auto text-blue-100 mt-3">We help businesses harness the power of automation to optimize processes, improve efficiency, and drive success. With a proven track record of delivering innovative solutions, we are committed to transforming industries through smart automation strategies.</p>
 
           <div className="grid text-white md:grid-cols-4 grid-cols-2 gap-5 gap-y-10 md:mt-16 mt-10">
 
