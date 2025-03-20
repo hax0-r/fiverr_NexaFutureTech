@@ -44,7 +44,7 @@ const Home = () => {
         <Wrapper>
 
 
-            <div className='bg-primary min-h-[calc(100vh-6rem)]'>
+            <div className='bg-primary min-h-[calc(100vh-8rem)]'>
                 <div className="max-w-7xl p-5 flex md:flex-row flex-col gap-10 items-center justify-between w-full mx-auto min-h-[calc(100vh-8rem)]">
                     <div className="text-white md:max-w-[50%] w-full">
                         <h1 className="md:text-5xl slidein [--slidein-delay:300ms] opacity-0 capitalize text-3xl font-semibold leading-tight">Smart consultancy for smarter manufacturing automation</h1>

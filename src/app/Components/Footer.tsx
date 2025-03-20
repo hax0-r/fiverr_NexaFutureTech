@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa"
-import logo from '../../Assets/logo2.png'
+import logo from '../../Assets/logo-3.png'
 import Image from 'next/image';
 
 const Footer = () => {
@@ -15,7 +15,7 @@ const Footer = () => {
                                 href="/"
                                 className="flex justify-center lg:justify-start"
                             >
-                               <Image src={logo} alt="logo" className='w-16' />
+                               <Image src={logo} alt="logo" className='w-40' />
                             </Link>
                             <p className="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">
                                 Trusted in more than 100 countries &amp; 5 million customers. Have any
