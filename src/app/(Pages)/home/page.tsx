@@ -42,6 +42,8 @@ const ourServices = [
 const Home = () => {
     return (
         <Wrapper>
+
+
             <div className='bg-primary min-h-[calc(100vh-6rem)]'>
                 <div className="max-w-7xl p-5 flex md:flex-row flex-col gap-10 items-center justify-between w-full mx-auto min-h-[calc(100vh-8rem)]">
                     <div className="text-white md:max-w-[50%] w-full">
@@ -72,7 +74,9 @@ const Home = () => {
                     <p className='text-zinc-500 md:text-lg mt-4'>We aim to revolutionize automation and manufacturing by leading the integration of manual processes with advanced technologies. With dedication and passion, we strive to propel businesses into a new era of efficiency and sustainable growth, fostering innovation in the industry.</p>
                 </div>
                 <div className="md:max-w-[40%] w-full">
-                    <Image src={ai2} className='rounded-lg md:h-96 object-cover' alt='img' />
+                    <video className="md:h-[26rem] h-[18rem] rounded-lg bg-white object-cover" autoPlay muted loop>
+                        <source src="/video.mp4" type="video/mp4" />
+                    </video>
                 </div>
             </div>
 
@@ -115,7 +119,7 @@ const Home = () => {
                 <div className="md:max-w-[90%] w-full">
                     <h2 className='font-semibold leading-tight md:text-3xl text-2xl capitalize'>founder of Nexafuturtech</h2>
                     <p className='text-zinc-500 md:text-lg mt-4 relative'> <FaQuoteLeft className='inline pb-2' />
-                    Nexafuturtech is driven by a passion for innovation and technology, dedicated to helping companies advance their capabilities with a relentless drive for improvement. We are here to make a global impact, positioning ourselves as the trusted partner for businesses embracing transformation. With a clear vision for progress, we empower companies to optimize operations, enhance efficiency, and lead the way in the evolving landscape of automation. <FaQuoteRight className='inline pt-2' />
+                        Nexafuturtech is driven by a passion for innovation and technology, dedicated to helping companies advance their capabilities with a relentless drive for improvement. We are here to make a global impact, positioning ourselves as the trusted partner for businesses embracing transformation. With a clear vision for progress, we empower companies to optimize operations, enhance efficiency, and lead the way in the evolving landscape of automation. <FaQuoteRight className='inline pt-2' />
                     </p>
                 </div>
             </div>
