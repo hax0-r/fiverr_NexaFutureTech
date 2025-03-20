@@ -10,7 +10,7 @@ const Numbers = () => {
                 </h2>
                 <p className="max-w-5xl w-full mx-auto text-blue-100 mt-3">We help businesses harness the power of automation to optimize processes, improve efficiency, and drive success. With a proven track record of delivering innovative solutions, we are committed to transforming industries through smart automation strategies.</p>
 
-                <div className="grid text-white md:grid-cols-4 grid-cols-2 gap-5 gap-y-10 md:mt-16 mt-10">
+                {/* <div className="grid text-white md:grid-cols-4 grid-cols-2 gap-5 gap-y-10 md:mt-16 mt-10">
 
                     <div className="">
                         <h2 className="font-semibold text-4xl mb-2">100+</h2>
@@ -30,7 +30,7 @@ const Numbers = () => {
                         <h2 className="font-semibold text-4xl mb-2">98%</h2>
                         <p className="text-blue-200">Happy Clients</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
