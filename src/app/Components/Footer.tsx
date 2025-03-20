@@ -9,7 +9,7 @@ const Footer = () => {
             <footer className="w-full mt-10 bg-zinc-50 md:pt-8 pt-4">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     {/*Grid*/}
-                    <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
                         <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
                             <Link
                                 href="/"
@@ -73,18 +73,18 @@ const Footer = () => {
                             <ul className="text-sm  transition-all duration-500">
                                 <li className="mb-6">
                                     <Link
-                                        href="#"
+                                        href="mailto:jai.poinoosawmy@outlook.com "
                                         className="text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
-                                        abc@gmail.com
+                                        jai.poinoosawmy@outlook.com 
                                     </Link>
                                 </li>
                                 <li className="mb-6">
                                     <Link
-                                        href="#"
+                                        href="tel:+310617065516"
                                         className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
-                                        +92 000 000 0000
+                                        +31(0)617065516 
                                     </Link>
                                 </li>
                             </ul>

@@ -4,6 +4,7 @@ import { BiMapPin, BiPhone } from 'react-icons/bi'
 import { IoMailOpenOutline } from 'react-icons/io5'
 import img from '../../../Assets/contactPeople.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Contact = () => {
     return (
@@ -25,12 +26,12 @@ const Contact = () => {
                         <div className="glass slidein [--slidein-delay:700ms] opacity-0 flex items-center justify-center flex-col text-center gap-2 p-5">
                             <IoMailOpenOutline className="text-blue-50 w-10 h-10" />
                             <h3 className="text-2xl text-blue-50 font-semibold mt-2">Email Us</h3>
-                            <p className="text-gray-300 ">support@yourcompany.com</p>
+                            <Link href={"mailto:jai.poinoosawmy@outlook.com"} className="text-gray-300 ">jai.poinoosawmy@outlook.com </Link>
                         </div>
                         <div className="glass slidein [--slidein-delay:900ms] opacity-0 flex items-center justify-center flex-col text-center gap-2 p-5">
                             <BiPhone className="text-blue-50 w-10 h-10" />
                             <h3 className="text-2xl text-blue-50 font-semibold mt-2">Call Us</h3>
-                            <p className="text-gray-300 ">+92 000 0 0000</p>
+                            <Link href={"tel:+310617065516"} className="text-gray-300 ">+31(0)617065516 </Link>
                         </div>
                     </div>
                 </div>
