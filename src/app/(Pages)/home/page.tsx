@@ -118,6 +118,7 @@ const Home = () => {
                 </div>
                 <div className="md:max-w-[90%] w-full">
                     <h2 className='font-semibold leading-tight md:text-3xl text-2xl capitalize'>founder of Nexafuturtech</h2>
+                    <h3 className='font-medium text-zinc-700 capitalize'>Jai Predeev Poinoosawmy</h3>
                     <p className='text-zinc-500 md:text-lg mt-4 relative'> <FaQuoteLeft className='inline pb-2' /> 
                         Nexafuturtech is driven by a passion for innovation and technology, dedicated to helping companies advance their capabilities with a relentless drive for improvement. We are here to make a global impact, positioning ourselves as the trusted partner for businesses embracing transformation. With a clear vision for progress, we empower companies to optimize operations, enhance efficiency, and lead the way in the evolving landscape of automation. <FaQuoteRight className='inline pb-2' />
                     </p>
