@@ -1,6 +1,6 @@
 import Wrapper from '@/app/Wrapper'
 import React from 'react'
-import ai2 from '../../../Assets/EmpoweringInnovationthroughAutomationExcellence.jpg'
+import ai2 from '../../../Assets/cobot.avif'
 import ai3 from '../../../Assets/cobotRobots.avif'
 import ai4 from '../../../Assets/Automation.avif'
 import img1 from '../../../Assets/img1.png'
@@ -9,9 +9,12 @@ import Image from 'next/image'
 import Cards from '@/app/Components/Cards';
 import Link from 'next/link';
 import { AiOutlineSolution } from 'react-icons/ai'
-import { FaRobot } from 'react-icons/fa6'
+import { FaQuoteRight, FaRobot } from 'react-icons/fa6'
 import { MdOutlinePrecisionManufacturing } from 'react-icons/md'
 import { SiInductiveautomation } from 'react-icons/si'
+import Numbers from '@/app/Components/Numbers'
+import { FaQuoteLeft } from "react-icons/fa6";
+
 
 const ourServices = [
     {
@@ -42,7 +45,7 @@ const Home = () => {
             <div className='bg-primary min-h-[calc(100vh-6rem)]'>
                 <div className="max-w-7xl p-5 flex md:flex-row flex-col gap-10 items-center justify-between w-full mx-auto min-h-[calc(100vh-8rem)]">
                     <div className="text-white md:max-w-[50%] w-full">
-                        <h1 className="md:text-5xl slidein [--slidein-delay:300ms] opacity-0 capitalize text-3xl font-semibold leading-tight">Smart Automation for Smarter Manufacturing</h1>
+                        <h1 className="md:text-5xl slidein [--slidein-delay:300ms] opacity-0 capitalize text-3xl font-semibold leading-tight">Smart consultancy for smarter manufacturing automation</h1>
                         <p className="mt-5 mb-8 text-blue-200 slidein [--slidein-delay:500ms] opacity-0">At Nexafuturtech, we blend transition traditional practices with cutting-edge technology to redefine automation and manufacturing. With passion and precision, we drive your business toward limitless innovation and sustainable growth.</p>
                         <Link href={"/contact"} className='px-12 slidein [--slidein-delay:700ms] opacity-0 py-3.5 rounded-full bg-white text-primary cursor-pointer  font-medium transition-all duration-500 hover:bg-transparent hover:text-white border border-white'>Get Started</Link>
                     </div>
@@ -86,7 +89,7 @@ const Home = () => {
             <div className="max-w-7xl w-full flex items-center justify-between md:flex-row flex-col gap-6 mx-auto p-5 md:mt-24 mt-5">
                 <div className="md:max-w-[50%] w-full">
                     <h2 className='font-semibold leading-tight md:text-3xl text-2xl'>SOLUTIONISTS</h2>
-                    <p className='text-zinc-500 md:text-lg mt-4'>"At NexafuturTech, we collabolate with
+                    <p className='text-zinc-500 md:text-lg mt-4'>At NexafuturTech, we collabolate with
                         leading solutionists to deliver innovative
                         automation solutions customized to your
                         business. With our strategic partnerships
@@ -101,45 +104,19 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="bg-primary md:p-10 p-5 md:mt-20 mt-10">
-                <div className="max-w-7xl my-5 w-full mx-auto py-5 text-center">
-
-                    <h2 className="text-white font-semibold md:text-3xl text-2xl">Smart Automation Consultancy for Smarter Businesses
-
-                    </h2>
-                    <p className="max-w-5xl w-full mx-auto text-blue-100 mt-3">We help businesses harness the power of automation to optimize processes, improve efficiency, and drive success. With a proven track record of delivering innovative solutions, we are committed to transforming industries through smart automation strategies.</p>
-
-                    <div className="grid text-white md:grid-cols-4 grid-cols-2 gap-5 gap-y-10 md:mt-16 mt-10">
-
-                        <div className="">
-                            <h2 className="font-semibold text-4xl mb-2">142+</h2>
-                            <p className="text-blue-200">Successful Implementations</p>
-                        </div>
-                        <div className="">
-                            <h2 className="font-semibold text-4xl mb-2">30k</h2>
-                            <p className="text-blue-200"> Engaged Community</p>
-                        </div>
-                        <div className="">
-                            <h2 className="font-semibold text-4xl mb-2">53M</h2>
-                            <p className="text-blue-200">
-                                Total Processes
-                            </p>
-                        </div>
-                        <div className="">
-                            <h2 className="font-semibold text-4xl mb-2">95%</h2>
-                            <p className="text-blue-200">Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
+            <div className="md:mt-20 mt-10">
+                <Numbers />
             </div>
 
-            <div className="max-w-6xl w-full flex items-center justify-between md:flex-row flex-col gap-6 mx-auto p-5 md:mt-28 mt-10">
-                <div className="md:max-w-[60%] w-full">
-                    <h2 className='font-semibold leading-tight md:text-3xl text-2xl capitalize'>founder of Nexafuturtech</h2>
-                    <p className='text-zinc-500 md:text-lg mt-4'>"Nexafuturtech is driven by a passion for innovation and technology, dedicated to helping companies advance their capabilities with a relentless drive for improvement. We are here to make a global impact, positioning ourselves as the trusted partner for businesses embracing transformation. With a clear vision for progress, we empower companies to optimize operations, enhance efficiency, and lead the way in the evolving landscape of automation."</p>
+            <div className="max-w-6xl w-full flex items-start justify-between md:flex-row flex-col gap-5 mx-auto p-5 md:mt-28 mt-10">
+                <div className="md:max-w-[6%] w-full">
+                    <Image src={ceo} className='rounded-full myShadow w-full border-zinc-400 border-2' alt='img' />
                 </div>
-                <div className="md:max-w-[30%] w-full">
-                    <Image src={ceo} className='rounded-full myShadow w-full' alt='img' />
+                <div className="md:max-w-[90%] w-full">
+                    <h2 className='font-semibold leading-tight md:text-3xl text-2xl capitalize'>founder of Nexafuturtech</h2>
+                    <p className='text-zinc-500 md:text-lg mt-4 relative'> <FaQuoteLeft className='inline pb-2' />
+                    Nexafuturtech is driven by a passion for innovation and technology, dedicated to helping companies advance their capabilities with a relentless drive for improvement. We are here to make a global impact, positioning ourselves as the trusted partner for businesses embracing transformation. With a clear vision for progress, we empower companies to optimize operations, enhance efficiency, and lead the way in the evolving landscape of automation. <FaQuoteRight className='inline pt-2' />
+                    </p>
                 </div>
             </div>
 

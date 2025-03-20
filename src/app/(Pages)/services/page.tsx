@@ -5,6 +5,7 @@ import ai2 from '../../../Assets/TailoredManufacturingAutomation.avif'
 import ai3 from '../../../Assets/RoboticProcessAutomation.jpg'
 import ai4 from '../../../Assets/RevivingDormantAutomationSystems.avif'
 import Image from 'next/image'
+import Numbers from '@/app/Components/Numbers'
 
 const OurServices = [
   {
@@ -59,34 +60,8 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="bg-primary md:p-10 p-5 md:mt-28 mt-10">
-        <div className="max-w-7xl my-5 w-full mx-auto py-5 text-center">
-
-          <h2 className="text-white font-semibold md:text-3xl text-2xl">Smart Automation Consultancy for Smarter Businesses</h2>
-          <p className="max-w-5xl w-full mx-auto text-blue-100 mt-3">We help businesses harness the power of automation to optimize processes, improve efficiency, and drive success. With a proven track record of delivering innovative solutions, we are committed to transforming industries through smart automation strategies.</p>
-
-          <div className="grid text-white md:grid-cols-4 grid-cols-2 gap-5 gap-y-10 md:mt-16 mt-10">
-
-            <div className="">
-              <h2 className="font-semibold text-4xl mb-2">142+</h2>
-              <p className="text-blue-200">Successful Implementations</p>
-            </div>
-            <div className="">
-              <h2 className="font-semibold text-4xl mb-2">30k</h2>
-              <p className="text-blue-200"> Engaged Community</p>
-            </div>
-            <div className="">
-              <h2 className="font-semibold text-4xl mb-2">53M</h2>
-              <p className="text-blue-200">
-                Total Processes
-              </p>
-            </div>
-            <div className="">
-              <h2 className="font-semibold text-4xl mb-2">95%</h2>
-              <p className="text-blue-200">Happy Clients</p>
-            </div>
-          </div>
-        </div>
+      <div className="md:mt-28 mt-10">
+        <Numbers />
       </div>
 
       <div className="flex items-center justify-center max-w-4xl mx-auto flex-col  md:mt-28 mt-8 text-center p-5">
