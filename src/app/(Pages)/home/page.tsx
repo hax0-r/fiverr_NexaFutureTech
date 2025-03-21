@@ -19,22 +19,22 @@ import { FaQuoteLeft } from "react-icons/fa6";
 const ourServices = [
     {
         title: 'Off-the-Shelf Automation',
-        description: 'Integrating ready-made automation solutions to improve efficiency quickly.',
+        description: 'We help businesses integrate ready-made automation tools for efficiency, cost savings, and seamless adoption.',
         icon: <AiOutlineSolution />
     },
     {
-        title: 'Manufacturing Automation',
-        description: 'Designing tailored automation systems using robotics, AI, and IoT to optimize workflows.',
+        title: 'Tailored Manufacturing Automation',
+        description: 'We design custom automation strategies to optimize workflows, enhance efficiency, and maximize ROI.',
         icon: <MdOutlinePrecisionManufacturing />
     },
     {
         title: 'Robot Process Automation',
-        description: 'Automating repetitive business tasks with intelligent software robots to boost productivity.',
+        description: 'We deploy intelligent bots to automate repetitive tasks, reduce errors, and boost productivity.',
         icon: <FaRobot />
     },
     {
         title: 'Reviving Dormant Automation',
-        description: 'Restoring and optimizing underutilized automation systems to maximize.',
+        description: 'We restore and optimize underutilized automation systems to improve performance and minimize downtime.',
         icon: <SiInductiveautomation />
     },
 ]
