@@ -15,10 +15,10 @@ const Footer = () => {
                                 href="/"
                                 className="flex justify-center lg:justify-start"
                             >
-                               <Image src={logo} alt="logo" className='w-40' />
+                                <Image src={logo} alt="logo" className='w-40' />
                             </Link>
                             <p className="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">
-                                Trusted in more than 100 countries &amp; 5 million customers. Have any
+                                Your global trusted partner. Have any
                                 query ?
                             </p>
                             <Link
@@ -76,7 +76,7 @@ const Footer = () => {
                                         href="mailto:jai.poinoosawmy@outlook.com "
                                         className="text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
-                                        jai.poinoosawmy@outlook.com 
+                                        jai.poinoosawmy@outlook.com
                                     </Link>
                                 </li>
                                 <li className="mb-6">
@@ -84,7 +84,7 @@ const Footer = () => {
                                         href="tel:+310617065516"
                                         className=" text-gray-600 hover:text-gray-900 transition-all duration-500"
                                     >
-                                        +31(0)617065516 
+                                        +31(0)617065516
                                     </Link>
                                 </li>
                             </ul>
