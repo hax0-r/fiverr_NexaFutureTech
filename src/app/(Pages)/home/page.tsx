@@ -1,19 +1,20 @@
 import Wrapper from '@/app/Wrapper'
 import React from 'react'
-import ai2 from '../../../Assets/cobot.avif'
+// import ai2 from '../../../Assets/cobot.avif'
 import ai3 from '../../../Assets/cobotRobots.avif'
 import ai4 from '../../../Assets/Automation.avif'
 import img1 from '../../../Assets/img1.png'
-import ceo from '../../../Assets/ceo.jpg'
+// import ceo from '../../../Assets/ceo.jpg'
 import Image from 'next/image'
 import Cards from '@/app/Components/Cards';
 import Link from 'next/link';
 import { AiOutlineSolution } from 'react-icons/ai'
-import { FaQuoteRight, FaRobot } from 'react-icons/fa6'
+import { FaRobot } from 'react-icons/fa6'
+// import { FaQuoteRight } from 'react-icons/fa6'
 import { MdOutlinePrecisionManufacturing } from 'react-icons/md'
 import { SiInductiveautomation } from 'react-icons/si'
 import Numbers from '@/app/Components/Numbers'
-import { FaQuoteLeft } from "react-icons/fa6";
+// import { FaQuoteLeft } from "react-icons/fa6";
 
 
 const ourServices = [
@@ -112,7 +113,7 @@ const Home = () => {
                 <Numbers />
             </div>
 
-            <div className="max-w-6xl w-full flex items-start justify-between md:flex-row flex-col gap-5 mx-auto p-5 md:mt-28 mt-10">
+            {/* <div className="max-w-6xl w-full flex items-start justify-between md:flex-row flex-col gap-5 mx-auto p-5 md:mt-28 mt-10">
                 <div className="md:max-w-[6%] w-full">
                     <Image src={ceo} className='rounded-full myShadow w-full border-zinc-400 border-2' alt='img' />
                 </div>
@@ -123,7 +124,7 @@ const Home = () => {
                         Nexafuturtech is driven by a passion for innovation and technology, dedicated to helping companies advance their capabilities with a relentless drive for improvement. We are here to make a global impact, positioning ourselves as the trusted partner for businesses embracing transformation. With a clear vision for progress, we empower companies to optimize operations, enhance efficiency, and lead the way in the evolving landscape of automation. <FaQuoteRight className='inline pb-2' />
                     </p>
                 </div>
-            </div>
+            </div> */}
 
             <div className="flex items-center justify-center max-w-4xl mx-auto flex-col  md:mt-28 mt-8 text-center p-5">
                 <h2 className="md:text-4xl text-3xl font-semibold tracking-tight capitalize text-zinc-800 ">Subscribe to our newsletter</h2>
