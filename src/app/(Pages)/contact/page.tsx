@@ -1,10 +1,10 @@
 import Wrapper from '@/app/Wrapper'
 import React from 'react'
-import { BiMapPin, BiPhone } from 'react-icons/bi'
-import { IoMailOpenOutline } from 'react-icons/io5'
+// import { BiMapPin, BiPhone } from 'react-icons/bi'
+// import { IoMailOpenOutline } from 'react-icons/io5'
 import img from '../../../Assets/contactPeople.png'
 import Image from 'next/image'
-import Link from 'next/link'
+// import Link from 'next/link'
 
 const Contact = () => {
     return (
@@ -22,7 +22,7 @@ const Contact = () => {
                             Whether you're looking for process automation, consulting, or support, we are just a message away.</p>
                     </div>
 
-                    <div className="grid max-w-4xl mx-auto px-5 md:mt-20 mt-10 sm:grid-cols-2 grid-cols-1 gap-4 w-full">
+                    {/* <div className="grid max-w-4xl mx-auto px-5 md:mt-20 mt-10 sm:grid-cols-2 grid-cols-1 gap-4 w-full">
                         <div className="glass slidein [--slidein-delay:700ms] opacity-0 flex items-center justify-center flex-col text-center gap-2 p-5">
                             <IoMailOpenOutline className="text-blue-50 w-10 h-10" />
                             <h3 className="text-2xl text-blue-50 font-semibold mt-2">Email Us</h3>
@@ -33,7 +33,7 @@ const Contact = () => {
                             <h3 className="text-2xl text-blue-50 font-semibold mt-2">Call Us</h3>
                             <Link href={"tel:+310617065516"} className="text-gray-300 ">+31(0)617065516 </Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="md:mt-20 mt-10 mx-auto max-w-7xl flex items-center justify-between md:flex-row flex-col gap-5 p-5">
