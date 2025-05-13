@@ -29,6 +29,8 @@ const Footer = () => {
                             </Link>
                         </div>
                         {/*End Col*/}
+
+                        <div className="md:block hidden"></div>
                         <div className="lg:mx-auto text-left ">
                             <h4 className="text-lg text-gray-900 font-medium mb-7">Quick Links</h4>
                             <ul className="text-sm  transition-all duration-500">
@@ -68,7 +70,7 @@ const Footer = () => {
                         </div>
 
                         {/*End Col*/}
-                        <div className="lg:mx-auto text-left">
+                        {/* <div className="lg:mx-auto text-left">
                             <h4 className="text-lg text-gray-900 font-medium mb-7">Resources</h4>
                             <ul className="text-sm  transition-all duration-500">
                                 <li className="mb-6">
@@ -88,7 +90,7 @@ const Footer = () => {
                                     </Link>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                     {/*Grid*/}
                     <div className="py-7 border-t border-gray-200">
